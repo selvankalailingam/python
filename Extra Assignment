@@ -1,0 +1,297 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "4948bae4-481e-43c1-a7b9-e23c886a831d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hope AI\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hope AI\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "3b79f78f-74e2-423e-a294-d7547c0eed2e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter your institution name: Hope AI\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "'Hope AI'"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "str(input(\"Enter your institution name:\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "4609867d-8722-4344-963f-0ca564df099e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter your name:  Raj\n",
+      "Enter your age 25\n",
+      "Enter your school name:  LHS\n",
+      "Enter your degree:  MS\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=input(\"Enter your name: \")\n",
+    "age=input(\"Enter your age\")\n",
+    "school=input(\"Enter your school name: \")\n",
+    "degree=input(\"Enter your degree: \")\n",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "52f5183e-e175-490b-8f8f-8b7b29e4dc96",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "a =  5\n",
+      "b =  3\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "C= 8\n"
+     ]
+    }
+   ],
+   "source": [
+    "num1=int(input(\"a = \"))\n",
+    "num2=int(input(\"b = \"))\n",
+    "print(\"C=\",num1+num2)\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "c0021265-6a5d-4b97-beed-b65a8a3e5038",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "a =  3\n",
+      "b =  6\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "c  = -3\n"
+     ]
+    }
+   ],
+   "source": [
+    "num1=int(input(\"a = \"))\n",
+    "num2=int(input(\"b = \"))\n",
+    "print(\"c  =\", num1-num2)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "d6b1d0a8-d4eb-4bef-aa47-7601e2b29561",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "a  = 5\n",
+      "b  = 5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "c  = 25\n"
+     ]
+    }
+   ],
+   "source": [
+    "num1=int(input(\"a  =\"))\n",
+    "num2=int(input(\"b  =\"))\n",
+    "print(\"c  =\",num1*num2)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "e7c6551a-669d-4ba3-9953-f9c86e80b9fb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "a  = 2\n",
+      "b = 3\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "c  = 0.4\n"
+     ]
+    }
+   ],
+   "source": [
+    "num1=int(input(\"a  =\"))\n",
+    "num2-int(input(\"b =\"))\n",
+    "print(\"c  =\", num1/num2)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "a1f3f26c-2b12-4f98-b6e7-8bc03ecdbfa3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "a = 2\n",
+      "b = 2\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "floor div: 1\n"
+     ]
+    }
+   ],
+   "source": [
+    "num1=int(input(\"a =\"))\n",
+    "num2=int(input(\"b =\"))\n",
+    "print(\"floor div:\", num1//num2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "97cc44df-5d29-448d-8031-466234fe98ac",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "a = 5\n",
+      "b = 5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Modulo : 0\n"
+     ]
+    }
+   ],
+   "source": [
+    "num1=int(input(\"a =\"))\n",
+    "num2=int(input(\"b =\"))\n",
+    "print(\"Modulo :\", num1%num2)\n",
+    "         "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "19f54493-a7d5-40d9-8658-7c1f2cbe812c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "a = 3\n",
+      "b = 2\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Power : 9\n"
+     ]
+    }
+   ],
+   "source": [
+    "num1=int(input(\"a =\"))\n",
+    "num2=int(input(\"b =\"))\n",
+    "print(\"Power :\",num1**num2)"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
